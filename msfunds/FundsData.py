@@ -30,7 +30,7 @@ def reqheaders():
         raise Exception("Authentication token not found in the response.")
 
     headers["authorization"] = f"Bearer {dx}"
-    headers["apikey"] = "lstzFDEOhfFNMLikKa0am9mgEKLBl49T"
+    headers["apikey"] = "lstzFDEOhfFNMLikKa0am9mgEKLBl49T" #Public API Key: cf.https://stackoverflow.com/questions/75690454/scraping-data-off-morningstar-portfolio-screen
 
     return headers
 
