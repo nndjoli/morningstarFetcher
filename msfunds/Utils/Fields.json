@@ -1,0 +1,23 @@
+[
+    "SecId",
+    "Name",
+    "PriceCurrency",
+    "TenforeId",
+    "LegalName",
+    "ClosePrice",
+    "Yield_M12",
+    "CategoryName",
+    "Medalist_RatingNumber",
+    "StarRatingM255",
+    "SustainabilityRank",
+    "GBRReturnD1",
+    "GBRReturnW1",
+    "GBRReturnM1",
+    "GBRReturnM3",
+    "GBRReturnM6",
+    "GBRReturnM0",
+    "GBRReturnM12",
+    "GBRReturnM36",
+    "GBRReturnM60",
+    "GBRReturnM120"
+]

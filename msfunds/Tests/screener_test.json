@@ -1,0 +1,1542 @@
+[
+    {
+        "Name": "AB Intl Technology A USD",
+        "SecId": "F0GBR04I8U",
+        "GBRReturnM12": 3.49
+    },
+    {
+        "Name": "AB Intl Technology B USD",
+        "SecId": "F0GBR04I8S",
+        "GBRReturnM12": 2.45
+    },
+    {
+        "Name": "AB Intl Technology I USD",
+        "SecId": "F0GBR04I8Y",
+        "GBRReturnM12": 4.33
+    },
+    {
+        "Name": "AB International Tech A EUR",
+        "SecId": "F00001DIZS",
+        "GBRReturnM12": 3.16
+    },
+    {
+        "Name": "AB International Tech I EUR",
+        "SecId": "F00001DIZR",
+        "GBRReturnM12": 3.99
+    },
+    {
+        "Name": "Belfius Equities Rob&InnovTech C$ Cap",
+        "SecId": "F0GBR04NU2",
+        "GBRReturnM12": -4.4
+    },
+    {
+        "Name": "Belfius Equities Rob&InnovTech C$ Dis",
+        "SecId": "F0GBR04KQQ",
+        "GBRReturnM12": -4.41
+    },
+    {
+        "Name": "BGF Next Generation Technology A10 USD",
+        "SecId": "F00001EMTR",
+        "GBRReturnM12": -0.89
+    },
+    {
+        "Name": "BGF Next Generation Technology A2",
+        "SecId": "F000011366",
+        "GBRReturnM12": -0.89
+    },
+    {
+        "Name": "BGF Next Generation Technology A2 AUD H",
+        "SecId": "F00001DR6L",
+        "GBRReturnM12": -5.1
+    },
+    {
+        "Name": "BGF Next Generation Technology A2 CHF H",
+        "SecId": "F000016Q13",
+        "GBRReturnM12": 7.67
+    },
+    {
+        "Name": "BGF Next Generation Technology A2 EUR",
+        "SecId": "0P0001NPF9",
+        "GBRReturnM12": -0.83
+    },
+    {
+        "Name": "BGF Next Generation Technology A2 EUR H",
+        "SecId": "F000011361",
+        "GBRReturnM12": 2.98
+    },
+    {
+        "Name": "BGF Next Generation Technology A2 GBP H",
+        "SecId": "F000016Q12",
+        "GBRReturnM12": 5.79
+    },
+    {
+        "Name": "BGF Next Generation Technology A2 NZD H",
+        "SecId": "F00001DR6O",
+        "GBRReturnM12": -4.19
+    },
+    {
+        "Name": "BGF Next Generation Technology A2 SEK",
+        "SecId": "0P0001EI7G",
+        "GBRReturnM12": -1.17
+    },
+    {
+        "Name": "BGF Next Generation Technology A2 SGD H",
+        "SecId": "F000011365",
+        "GBRReturnM12": 2.21
+    },
+    {
+        "Name": "BGF Next Generation Technology A4",
+        "SecId": "F00001B442",
+        "GBRReturnM12": -0.84
+    },
+    {
+        "Name": "BGF Next Generation Technology A4 EUR",
+        "SecId": "0P0001NMX0",
+        "GBRReturnM12": -0.95
+    },
+    {
+        "Name": "BGF Next Generation Technology C2 EUR",
+        "SecId": "F00001GLQG",
+        "GBRReturnM12": -2.07
+    },
+    {
+        "Name": "BGF Next Generation Technology D2",
+        "SecId": "F00001135X",
+        "GBRReturnM12": -0.09
+    },
+    {
+        "Name": "BGF Next Generation Technology D2 EUR",
+        "SecId": "0P0001FCAE",
+        "GBRReturnM12": -0.06
+    },
+    {
+        "Name": "BGF Next Generation Technology D2 EUR H",
+        "SecId": "F000011362",
+        "GBRReturnM12": 3.81
+    },
+    {
+        "Name": "BGF Next Generation Technology D2 GBP",
+        "SecId": "0P0001KU0J",
+        "GBRReturnM12": -0.24
+    },
+    {
+        "Name": "BGF Next Generation Technology D2 GBP H",
+        "SecId": "F000011364",
+        "GBRReturnM12": 6.75
+    },
+    {
+        "Name": "BGF Next Generation Technology D2 SGD H",
+        "SecId": "F000016LM6",
+        "GBRReturnM12": 3.08
+    },
+    {
+        "Name": "BGF Next Generation Technology E2 EUR",
+        "SecId": "F000011Q3S",
+        "GBRReturnM12": -1.38
+    },
+    {
+        "Name": "BGF Next Generation Technology E2 EUR H",
+        "SecId": "F000011363",
+        "GBRReturnM12": 2.48
+    },
+    {
+        "Name": "BGF Next Generation Technology I2",
+        "SecId": "F00001135Y",
+        "GBRReturnM12": 0.19
+    },
+    {
+        "Name": "BGF Next Generation Technology I2 EUR",
+        "SecId": "0P0001FCAG",
+        "GBRReturnM12": 0.22
+    },
+    {
+        "Name": "BGF Next Generation Technology I2 EUR H",
+        "SecId": "F000011Q3U",
+        "GBRReturnM12": 4.11
+    },
+    {
+        "Name": "BGF Next Generation Technology I2 GBP",
+        "SecId": "0P0001JVE6",
+        "GBRReturnM12": 0.05
+    },
+    {
+        "Name": "BGF Next Generation Technology I4",
+        "SecId": "F00001B443",
+        "GBRReturnM12": 0.12
+    },
+    {
+        "Name": "BGF Next Generation Technology I4 USD",
+        "SecId": "0P0001MZ9J",
+        "GBRReturnM12": 0.28
+    },
+    {
+        "Name": "BGF Next Generation Technology S2 CHF H",
+        "SecId": "F000016Q15",
+        "GBRReturnM12": 8.56
+    },
+    {
+        "Name": "BGF Next Generation Technology S2 GBP H",
+        "SecId": "F000016Q14",
+        "GBRReturnM12": 6.95
+    },
+    {
+        "Name": "BGF Next Generation Technology SR2 EUR H",
+        "SecId": "F000017HAG",
+        "GBRReturnM12": 3.94
+    },
+    {
+        "Name": "BGF Next Generation Technology X2 USD",
+        "SecId": "F00001135Z",
+        "GBRReturnM12": 0.85
+    },
+    {
+        "Name": "BGF Next Generation Technology Z2 CHF H",
+        "SecId": "F000016Q16",
+        "GBRReturnM12": 8.86
+    },
+    {
+        "Name": "BGF Next Generation Technology Z2 USD",
+        "SecId": "F000011360",
+        "GBRReturnM12": 0.27
+    },
+    {
+        "Name": "BGF World Technology A10 USD",
+        "SecId": "F00001EMTX",
+        "GBRReturnM12": 5.11
+    },
+    {
+        "Name": "BGF World Technology A2",
+        "SecId": "F0GBR04AMX",
+        "GBRReturnM12": 5.13
+    },
+    {
+        "Name": "BGF World Technology A2 AUD H",
+        "SecId": "F0000163S7",
+        "GBRReturnM12": 0.93
+    },
+    {
+        "Name": "BGF World Technology A2 CNH H",
+        "SecId": "F00001639B",
+        "GBRReturnM12": 3.39
+    },
+    {
+        "Name": "BGF World Technology A2 EUR",
+        "SecId": "0P0001FJIH",
+        "GBRReturnM12": 5.14
+    },
+    {
+        "Name": "BGF World Technology A2 EUR H",
+        "SecId": "F000010L9L",
+        "GBRReturnM12": 8.98
+    },
+    {
+        "Name": "BGF World Technology A2 GBP",
+        "SecId": "0P0001FJII",
+        "GBRReturnM12": 4.97
+    },
+    {
+        "Name": "BGF World Technology A2 HKD",
+        "SecId": "0P0001L7KP",
+        "GBRReturnM12": 5.13
+    },
+    {
+        "Name": "BGF World Technology A2 SGD H",
+        "SecId": "F000010UUU",
+        "GBRReturnM12": 8.3
+    },
+    {
+        "Name": "BGF World Technology A4",
+        "SecId": "F00001AH65",
+        "GBRReturnM12": 5.12
+    },
+    {
+        "Name": "BGF World Technology A4 USD",
+        "SecId": "0P0001MWTB",
+        "GBRReturnM12": 5.16
+    },
+    {
+        "Name": "BGF World Technology C2 USD",
+        "SecId": "F0GBR053DC",
+        "GBRReturnM12": 3.81
+    },
+    {
+        "Name": "BGF World Technology D2",
+        "SecId": "F00000NJPC",
+        "GBRReturnM12": 5.92
+    },
+    {
+        "Name": "BGF World Technology D2 EUR",
+        "SecId": "0P0000VHOL",
+        "GBRReturnM12": 5.93
+    },
+    {
+        "Name": "BGF World Technology D2 EUR H",
+        "SecId": "F0000159LB",
+        "GBRReturnM12": 9.77
+    },
+    {
+        "Name": "BGF World Technology D2 GBP",
+        "SecId": "0P0000XAS1",
+        "GBRReturnM12": 5.77
+    },
+    {
+        "Name": "BGF World Technology E2",
+        "SecId": "F0GBR04U3X",
+        "GBRReturnM12": 4.59
+    },
+    {
+        "Name": "BGF World Technology E2 EUR",
+        "SecId": "0P0000VHOM",
+        "GBRReturnM12": 4.61
+    },
+    {
+        "Name": "BGF World Technology E2 EUR H Acc",
+        "SecId": "F000016P4E",
+        "GBRReturnM12": 8.38
+    },
+    {
+        "Name": "BGF World Technology I2",
+        "SecId": "F000014ZHT",
+        "GBRReturnM12": 6.16
+    },
+    {
+        "Name": "BGF World Technology I2 EUR",
+        "SecId": "0P0001CB10",
+        "GBRReturnM12": 6.15
+    },
+    {
+        "Name": "BGF World Technology I2 GBP",
+        "SecId": "0P0001JVE5",
+        "GBRReturnM12": 6.0
+    },
+    {
+        "Name": "BGF World Technology I2 JPY",
+        "SecId": "0P0001LCDZ",
+        "GBRReturnM12": 6.18
+    },
+    {
+        "Name": "BGF World Technology I2 BRL H Acc",
+        "SecId": "F0000172S9",
+        "GBRReturnM12": -8.23
+    },
+    {
+        "Name": "BGF World Technology I2 EUR H",
+        "SecId": "F0000107BO",
+        "GBRReturnM12": 10.01
+    },
+    {
+        "Name": "BGF World Technology I4 USD",
+        "SecId": "F00001AH66",
+        "GBRReturnM12": 6.13
+    },
+    {
+        "Name": "BGF World Technology I5 GBP H Inc",
+        "SecId": "F00001694F",
+        "GBRReturnM12": 13.21
+    },
+    {
+        "Name": "BGF World Technology X10 USD",
+        "SecId": "F00001DYC7",
+        "GBRReturnM12": 7.0
+    },
+    {
+        "Name": "BGF World Technology X2 USD",
+        "SecId": "F00000ZVS7",
+        "GBRReturnM12": 6.99
+    },
+    {
+        "Name": "BlueBox Funds Global Technology A \u20ac Acc",
+        "SecId": "F00001CE4Q",
+        "GBRReturnM12": -0.81
+    },
+    {
+        "Name": "BlueBox Funds Global Technology A $ Acc",
+        "SecId": "F000015IAZ",
+        "GBRReturnM12": -0.82
+    },
+    {
+        "Name": "BlueBox Funds Global Technology C Acc",
+        "SecId": "F000016MQW",
+        "GBRReturnM12": -1.51
+    },
+    {
+        "Name": "BlueBox Funds Global Technology C \u20ac Acc",
+        "SecId": "F000016UMJ",
+        "GBRReturnM12": -1.51
+    },
+    {
+        "Name": "BlueBox Funds Global Technology I Acc",
+        "SecId": "F00001699R",
+        "GBRReturnM12": -0.28
+    },
+    {
+        "Name": "BlueBox Funds Global Technology I \u20ac Acc",
+        "SecId": "F00001CE52",
+        "GBRReturnM12": -0.28
+    },
+    {
+        "Name": "BlueBox Global Technology R UK GBP Acc",
+        "SecId": "F00001PXF4",
+        "GBRReturnM12": NaN
+    },
+    {
+        "Name": "BNP Paribas Disrpt Tech Cl C",
+        "SecId": "F00000PXI1",
+        "GBRReturnM12": -1.99
+    },
+    {
+        "Name": "BNP Paribas Disrpt Tech Cl D",
+        "SecId": "F00000PXI2",
+        "GBRReturnM12": -1.99
+    },
+    {
+        "Name": "BNP Paribas Disrpt Tech Cl H EUR C",
+        "SecId": "F000010UNJ",
+        "GBRReturnM12": 1.51
+    },
+    {
+        "Name": "BNP Paribas Disrpt Tech Cl USD C",
+        "SecId": "F00000PX9U",
+        "GBRReturnM12": -1.99
+    },
+    {
+        "Name": "BNP Paribas Disrpt Tech I C",
+        "SecId": "F00000PXI3",
+        "GBRReturnM12": -1.0
+    },
+    {
+        "Name": "BNP Paribas Disrpt Tech N C",
+        "SecId": "F00000PXI4",
+        "GBRReturnM12": -2.73
+    },
+    {
+        "Name": "BNP Paribas Disrpt Tech N USD C",
+        "SecId": "F00001HF22",
+        "GBRReturnM12": -2.68
+    },
+    {
+        "Name": "BNP Paribas Disrpt Tech Privl C",
+        "SecId": "F00000PX9W",
+        "GBRReturnM12": -1.1
+    },
+    {
+        "Name": "BNP Paribas Disrpt Tech Privl D",
+        "SecId": "F00000PY81",
+        "GBRReturnM12": -1.1
+    },
+    {
+        "Name": "BNP Paribas Disrpt Tech Privl H EUR C",
+        "SecId": "F000011A6P",
+        "GBRReturnM12": 2.49
+    },
+    {
+        "Name": "BNP Paribas Disrpt Tech Privl USD C",
+        "SecId": "F000010KVV",
+        "GBRReturnM12": -1.1
+    },
+    {
+        "Name": "BNP Paribas Disrpt Tech UI6 H EUR C",
+        "SecId": "F000016C20",
+        "GBRReturnM12": 2.8
+    },
+    {
+        "Name": "BNP Paribas Disrpt Tech UP4 EUR D",
+        "SecId": "F000014XZ7",
+        "GBRReturnM12": -0.9
+    },
+    {
+        "Name": "Candriam Eqs L Rbtc&Innov Tech C EUR Cap",
+        "SecId": "F00000Z7DE",
+        "GBRReturnM12": -6.03
+    },
+    {
+        "Name": "Candriam Eqs L Rbtc&Innov Tech C USD Cap",
+        "SecId": "F00000YV6Y",
+        "GBRReturnM12": -6.03
+    },
+    {
+        "Name": "Candriam Eqs L Rbtc&Innov Tech CH EURCap",
+        "SecId": "F0000115A2",
+        "GBRReturnM12": -3.58
+    },
+    {
+        "Name": "Candriam Eqs L Rbtc&Innov Tech I EUR Cap",
+        "SecId": "F00000ZW1Y",
+        "GBRReturnM12": -5.14
+    },
+    {
+        "Name": "Candriam Eqs L Rbtc&Innov Tech I USD Cap",
+        "SecId": "F00000YV70",
+        "GBRReturnM12": -5.14
+    },
+    {
+        "Name": "Candriam Eqs L Rbtc&Innov Tech RH EURCap",
+        "SecId": "F0000108N3",
+        "GBRReturnM12": -2.79
+    },
+    {
+        "Name": "CT (Lux) Global Tech AEH EUR",
+        "SecId": "F00000GX0V",
+        "GBRReturnM12": 2.23
+    },
+    {
+        "Name": "CT (Lux) Global Tech AU USD",
+        "SecId": "F00000GX0S",
+        "GBRReturnM12": -0.7
+    },
+    {
+        "Name": "CT (Lux) Global Tech IE EUR",
+        "SecId": "F000014MCK",
+        "GBRReturnM12": 0.29
+    },
+    {
+        "Name": "CT (Lux) Global Tech IEH EUR",
+        "SecId": "F00000GX0X",
+        "GBRReturnM12": 3.21
+    },
+    {
+        "Name": "CT(Lux) Global Tech IU USD",
+        "SecId": "F00000GX0W",
+        "GBRReturnM12": 0.29
+    },
+    {
+        "Name": "CT (Lux) Global Tech ZE",
+        "SecId": "F00000UMTC",
+        "GBRReturnM12": 0.24
+    },
+    {
+        "Name": "CT (Lux) Global Tech ZE EUR",
+        "SecId": "0P00019KKN",
+        "GBRReturnM12": 0.24
+    },
+    {
+        "Name": "CT (Lux) Global Tech ZEH EUR",
+        "SecId": "F000010MTD",
+        "GBRReturnM12": 3.23
+    },
+    {
+        "Name": "DNB Fund Technology institutional A",
+        "SecId": "F00000SJXB",
+        "GBRReturnM12": 13.09
+    },
+    {
+        "Name": "DNB Fund Technology institution. A (USD)",
+        "SecId": "F00000SJXU",
+        "GBRReturnM12": 13.09
+    },
+    {
+        "Name": "DNB Fund Technology institutional B",
+        "SecId": "F00000X7W9",
+        "GBRReturnM12": 12.29
+    },
+    {
+        "Name": "DNB Fund Technology retail A",
+        "SecId": "F000000JQ3",
+        "GBRReturnM12": 12.2
+    },
+    {
+        "Name": "DNB Fund Technology retail A (N)",
+        "SecId": "F00000ZM5I",
+        "GBRReturnM12": 12.93
+    },
+    {
+        "Name": "DNB Fund Technology retail A (USD)",
+        "SecId": "F00000SJXC",
+        "GBRReturnM12": 12.2
+    },
+    {
+        "Name": "DNB Fund Technology retail B",
+        "SecId": "F00000X7W7",
+        "GBRReturnM12": 12.02
+    },
+    {
+        "Name": "DNB Fund Technology retail B (N)",
+        "SecId": "F00000ZM4V",
+        "GBRReturnM12": 12.24
+    },
+    {
+        "Name": "Fidelity Global Technology A-Acc-EUR",
+        "SecId": "F00000VKNA",
+        "GBRReturnM12": 6.5
+    },
+    {
+        "Name": "Fidelity Global Technology A-Acc-EURH",
+        "SecId": "F000010RNL",
+        "GBRReturnM12": 8.28
+    },
+    {
+        "Name": "Fidelity Global Technology A-Acc-USD",
+        "SecId": "F00000T2AE",
+        "GBRReturnM12": 6.4
+    },
+    {
+        "Name": "Fidelity Global Technology A-Dis-EUR",
+        "SecId": "F0GBR04D20",
+        "GBRReturnM12": 6.49
+    },
+    {
+        "Name": "Fidelity Global Technology E-Acc-EUR",
+        "SecId": "F0GBR04LVP",
+        "GBRReturnM12": 5.69
+    },
+    {
+        "Name": "Fidelity Global Technology I-Acc-EUR H",
+        "SecId": "F000014HS5",
+        "GBRReturnM12": 9.27
+    },
+    {
+        "Name": "Fidelity Global Technology Y-Acc-EUR",
+        "SecId": "F000001ATI",
+        "GBRReturnM12": 7.39
+    },
+    {
+        "Name": "Fidelity Global Technology Y-Acc-EUR H",
+        "SecId": "F00000XQ0Q",
+        "GBRReturnM12": 9.08
+    },
+    {
+        "Name": "Fidelity Global Technology Y-Acc-USD",
+        "SecId": "F00000YJZO",
+        "GBRReturnM12": 7.33
+    },
+    {
+        "Name": "Fidelity Global Technology Y-Dis-EUR",
+        "SecId": "F00000QIPH",
+        "GBRReturnM12": 7.4
+    },
+    {
+        "Name": "Fondo BNPP Disruptive Technology Prot",
+        "SecId": "F00001EMW9",
+        "GBRReturnM12": 8.68
+    },
+    {
+        "Name": "Franklin Technology A Acc CHF H1",
+        "SecId": "F0000160JI",
+        "GBRReturnM12": 11.49
+    },
+    {
+        "Name": "Franklin Technology A Acc EUR",
+        "SecId": "FOGBR05JFY",
+        "GBRReturnM12": 3.09
+    },
+    {
+        "Name": "Franklin Technology A Acc EUR-H1",
+        "SecId": "F00000ZP8M",
+        "GBRReturnM12": 6.77
+    },
+    {
+        "Name": "Franklin Technology A Acc HKD",
+        "SecId": "F00000PLJA",
+        "GBRReturnM12": 3.43
+    },
+    {
+        "Name": "Franklin Technology A Acc RMB H1",
+        "SecId": "F000016OIG",
+        "GBRReturnM12": 1.97
+    },
+    {
+        "Name": "Franklin Technology A Acc SGD-H1",
+        "SecId": "F000010EYV",
+        "GBRReturnM12": 6.48
+    },
+    {
+        "Name": "Franklin Technology A Acc USD",
+        "SecId": "F0GBR04V77",
+        "GBRReturnM12": 3.42
+    },
+    {
+        "Name": "Franklin Technology C Acc USD",
+        "SecId": "FOGBR05JFZ",
+        "GBRReturnM12": 2.82
+    },
+    {
+        "Name": "Franklin Technology I Acc EUR",
+        "SecId": "F000001X6Y",
+        "GBRReturnM12": 4.07
+    },
+    {
+        "Name": "Franklin Technology I Acc EUR H1",
+        "SecId": "F000015O4W",
+        "GBRReturnM12": 7.84
+    },
+    {
+        "Name": "Franklin Technology I Acc USD",
+        "SecId": "F00000MHI3",
+        "GBRReturnM12": 4.4
+    },
+    {
+        "Name": "Franklin Technology I Inc EUR",
+        "SecId": "F000011G2Q",
+        "GBRReturnM12": 4.09
+    },
+    {
+        "Name": "Franklin Technology N Acc EUR",
+        "SecId": "F0GBR04M1U",
+        "GBRReturnM12": 2.3
+    },
+    {
+        "Name": "Franklin Technology N Acc PLN-H1",
+        "SecId": "F000013MMD",
+        "GBRReturnM12": 8.29
+    },
+    {
+        "Name": "Franklin Technology N Acc USD",
+        "SecId": "F0GBR04N4Y",
+        "GBRReturnM12": 2.63
+    },
+    {
+        "Name": "Franklin Technology W Acc CHF H1",
+        "SecId": "F0000158VV",
+        "GBRReturnM12": 12.49
+    },
+    {
+        "Name": "Franklin Technology W Acc EUR",
+        "SecId": "F00000PZDR",
+        "GBRReturnM12": 4.02
+    },
+    {
+        "Name": "Franklin Technology W Acc EUR-H1",
+        "SecId": "F000010EYW",
+        "GBRReturnM12": 7.75
+    },
+    {
+        "Name": "Franklin Technology W Acc USD",
+        "SecId": "F00000QLV9",
+        "GBRReturnM12": 4.36
+    },
+    {
+        "Name": "Franklin Technology Z Acc USD",
+        "SecId": "F00000M9M1",
+        "GBRReturnM12": 4.04
+    },
+    {
+        "Name": "GS Global Ftr Tech Ldr Eq Base USD Acc",
+        "SecId": "F000014UJB",
+        "GBRReturnM12": 3.53
+    },
+    {
+        "Name": "GS Global Ftr Tech Ldr Eq Base USD Inc",
+        "SecId": "F000014UJ9",
+        "GBRReturnM12": 3.59
+    },
+    {
+        "Name": "GS Global Ftr Tech Ldr Eq E EUR Acc",
+        "SecId": "F000014UJJ",
+        "GBRReturnM12": 3.14
+    },
+    {
+        "Name": "GS Global Ftr Tech Ldr Eq I USD Acc",
+        "SecId": "F000014UJC",
+        "GBRReturnM12": 4.42
+    },
+    {
+        "Name": "GS Global Ftr Tech Ldr Eq I USD Inc",
+        "SecId": "F000014UJE",
+        "GBRReturnM12": 4.48
+    },
+    {
+        "Name": "GS Global Ftr Tech Ldr Eq IO USD Acc",
+        "SecId": "F000014UJK",
+        "GBRReturnM12": 5.22
+    },
+    {
+        "Name": "GS Global Ftr Tech Ldr Eq P USD Acc",
+        "SecId": "F000014UJM",
+        "GBRReturnM12": 3.86
+    },
+    {
+        "Name": "GS Global Ftr Tech Ldr Eq P USD Inc",
+        "SecId": "F000014UJL",
+        "GBRReturnM12": 3.86
+    },
+    {
+        "Name": "GS Global Ftr Tech Ldr Eq R GBP Acc",
+        "SecId": "F000014UJG",
+        "GBRReturnM12": 4.46
+    },
+    {
+        "Name": "GS Global Ftr Tech Ldr Eq R GBP Inc",
+        "SecId": "F000014UJI",
+        "GBRReturnM12": 4.45
+    },
+    {
+        "Name": "GS Global Ftr Tech Ldr Eq I GBP Inc",
+        "SecId": "F000016RII",
+        "GBRReturnM12": 4.54
+    },
+    {
+        "Name": "GS Global Ftr Tech Ldr Eq OC EUR Acc",
+        "SecId": "F000014UIV",
+        "GBRReturnM12": 3.96
+    },
+    {
+        "Name": "GS Global Ftr Tech Ldr Eq OC HKD Acc",
+        "SecId": "F00001D7N7",
+        "GBRReturnM12": 3.54
+    },
+    {
+        "Name": "GS Global Ftr Tech Ldr Eq OC SGD Acc",
+        "SecId": "F00001D7AO",
+        "GBRReturnM12": 3.8
+    },
+    {
+        "Name": "GS Global Ftr Tech Ldr Eq R EUR Inc",
+        "SecId": "F000015D20",
+        "GBRReturnM12": 4.72
+    },
+    {
+        "Name": "GS Global Ftr Tech Ldr Eq R USD Acc",
+        "SecId": "F0000168P8",
+        "GBRReturnM12": 4.29
+    },
+    {
+        "Name": "GS Global Ftr Tech Ldr Eq R USD Inc",
+        "SecId": "F000015D21",
+        "GBRReturnM12": 4.28
+    },
+    {
+        "Name": "GS US Technology Opp Eq Bs USD Acc",
+        "SecId": "F000015YPQ",
+        "GBRReturnM12": 5.76
+    },
+    {
+        "Name": "GS US Technology Opp Eq Bs USD Inc",
+        "SecId": "F000015YPP",
+        "GBRReturnM12": 5.72
+    },
+    {
+        "Name": "GS US Technology Opp Eq A USD Acc",
+        "SecId": "F00001HEQK",
+        "GBRReturnM12": 5.2
+    },
+    {
+        "Name": "GS US Technology Opp Eq E EUR Acc",
+        "SecId": "F000015YPV",
+        "GBRReturnM12": 5.6
+    },
+    {
+        "Name": "GS US Technology Opp Eq I GBP Acc",
+        "SecId": "F000015YPZ",
+        "GBRReturnM12": 6.8
+    },
+    {
+        "Name": "GS US Technology Opp Eq I USD Acc",
+        "SecId": "F000015YPR",
+        "GBRReturnM12": 6.66
+    },
+    {
+        "Name": "GS US Technology Opp Eq I USD Inc",
+        "SecId": "F000015YPS",
+        "GBRReturnM12": 6.67
+    },
+    {
+        "Name": "GS US Technology Opp Eq IO USD Inc",
+        "SecId": "F000015YPY",
+        "GBRReturnM12": 7.4
+    },
+    {
+        "Name": "GS US Technology Opp Eq P USD Acc",
+        "SecId": "F000015YPX",
+        "GBRReturnM12": 6.07
+    },
+    {
+        "Name": "GS US Technology Opp Eq R GBP Acc",
+        "SecId": "F000015YQ0",
+        "GBRReturnM12": 6.69
+    },
+    {
+        "Name": "GS US Technology Opp Eq R USD Acc",
+        "SecId": "F000015YPT",
+        "GBRReturnM12": 6.62
+    },
+    {
+        "Name": "GS US Technology Opp Eq R USD Inc",
+        "SecId": "F000015YPU",
+        "GBRReturnM12": 6.5
+    },
+    {
+        "Name": "GS US Technology Opp Eq OC EUR Acc",
+        "SecId": "F000015YPW",
+        "GBRReturnM12": 6.12
+    },
+    {
+        "Name": "Janus Henderson Glb Tech&Inno A2 HEUR",
+        "SecId": "F0GBR04J0E",
+        "GBRReturnM12": 9.42
+    },
+    {
+        "Name": "Janus Henderson Glb Tech&Inno A2 USD",
+        "SecId": "F0GBR04SJS",
+        "GBRReturnM12": 6.08
+    },
+    {
+        "Name": "Janus Henderson Glb Tech&Inno G2 EUR",
+        "SecId": "F00001PXNY",
+        "GBRReturnM12": NaN
+    },
+    {
+        "Name": "Janus Henderson Glb Tech&Inno G2 USD",
+        "SecId": "F00001EGBU",
+        "GBRReturnM12": 7.84
+    },
+    {
+        "Name": "Janus Henderson Glb Tech&Inno H2 HEUR",
+        "SecId": "F00000QM3C",
+        "GBRReturnM12": 11.11
+    },
+    {
+        "Name": "Janus Henderson Glb Tech&Inno H2 USD",
+        "SecId": "F00000QM7C",
+        "GBRReturnM12": 7.69
+    },
+    {
+        "Name": "Janus Henderson Glb Tech&Inno I2 EUR",
+        "SecId": "F00001PXNZ",
+        "GBRReturnM12": NaN
+    },
+    {
+        "Name": "Janus Henderson Glb Tech&Inno I2 HEUR",
+        "SecId": "F000000S5D",
+        "GBRReturnM12": 10.32
+    },
+    {
+        "Name": "Janus Henderson Glb Tech&Inno I2 USD",
+        "SecId": "F0GBR04J0I",
+        "GBRReturnM12": 6.95
+    },
+    {
+        "Name": "Janus Henderson Hrzn GlbTechLdrs A1USD",
+        "SecId": "F0GBR05YX1",
+        "GBRReturnM12": 3.21
+    },
+    {
+        "Name": "Janus Henderson Hrzn GlbTechLdrs A2EUR",
+        "SecId": "F00000NAG9",
+        "GBRReturnM12": 3.22
+    },
+    {
+        "Name": "Janus Henderson Hrzn GlbTechLdrs A2GBP",
+        "SecId": "F00000NAG6",
+        "GBRReturnM12": 3.05
+    },
+    {
+        "Name": "Janus Henderson Hrzn GlbTechLdrs A2 HEUR",
+        "SecId": "F00001E8VV",
+        "GBRReturnM12": 6.53
+    },
+    {
+        "Name": "Janus Henderson Hrzn GlbTechLdrs A2USD",
+        "SecId": "F0GBR04E8V",
+        "GBRReturnM12": 3.21
+    },
+    {
+        "Name": "Janus Henderson Hrzn GlbTechLdrs G2 HEUR",
+        "SecId": "F00001MS1O",
+        "GBRReturnM12": NaN
+    },
+    {
+        "Name": "Janus Henderson Hrzn GlbTechLdrs G2USD",
+        "SecId": "F00000QJ8I",
+        "GBRReturnM12": 4.37
+    },
+    {
+        "Name": "Janus Henderson Hrzn GlbTechLdrs H1USD",
+        "SecId": "F00000QTRU",
+        "GBRReturnM12": 4.03
+    },
+    {
+        "Name": "Janus Henderson Hrzn GlbTechLdrs H2EUR",
+        "SecId": "F00000PWRR",
+        "GBRReturnM12": 4.06
+    },
+    {
+        "Name": "Janus Henderson Hrzn GlbTechLdrs H2HEURA",
+        "SecId": "F00000ZVOO",
+        "GBRReturnM12": 7.19
+    },
+    {
+        "Name": "Janus Henderson Hrzn GlbTechLdrs H2USD",
+        "SecId": "F00000PSFE",
+        "GBRReturnM12": 4.03
+    },
+    {
+        "Name": "Janus Henderson Hrzn GlbTechLdrs I1USD",
+        "SecId": "F000002313",
+        "GBRReturnM12": 4.12
+    },
+    {
+        "Name": "Janus Henderson Hrzn GlbTechLdrs I2EUR",
+        "SecId": "F00001OZL0",
+        "GBRReturnM12": NaN
+    },
+    {
+        "Name": "Janus Henderson Hrzn GlbTechLdrs I2HEUR",
+        "SecId": "F00000QNT4",
+        "GBRReturnM12": 7.26
+    },
+    {
+        "Name": "Janus Henderson Hrzn GlbTechLdrs I2USD",
+        "SecId": "F000002314",
+        "GBRReturnM12": 4.12
+    },
+    {
+        "Name": "Janus Henderson Hrzn GlbTechLdrs SB1USD",
+        "SecId": "F000015LPW",
+        "GBRReturnM12": 4.28
+    },
+    {
+        "Name": "Janus Henderson Hrzn GlbTechLdrs SB2USD",
+        "SecId": "F000015LPZ",
+        "GBRReturnM12": 4.28
+    },
+    {
+        "Name": "Janus Henderson Hrzn GlbTechLdrs X2EUR",
+        "SecId": "F00000NAGB",
+        "GBRReturnM12": 2.6
+    },
+    {
+        "Name": "JPM US Technology A (acc) EUR H",
+        "SecId": "F00001ETP2",
+        "GBRReturnM12": 11.21
+    },
+    {
+        "Name": "JPM US Technology A (acc) EUR",
+        "SecId": "F00000ITO1",
+        "GBRReturnM12": 7.91
+    },
+    {
+        "Name": "JPM US Technology A (acc) USD",
+        "SecId": "F0GBR05VVS",
+        "GBRReturnM12": 7.49
+    },
+    {
+        "Name": "JPM US Technology A (dist) GBP",
+        "SecId": "F0GBR04BY4",
+        "GBRReturnM12": 7.58
+    },
+    {
+        "Name": "JPM US Technology A (dist) USD",
+        "SecId": "F0GBR04T21",
+        "GBRReturnM12": 7.49
+    },
+    {
+        "Name": "JPM US Technology C (acc) EUR",
+        "SecId": "F00000WH5Z",
+        "GBRReturnM12": 8.82
+    },
+    {
+        "Name": "JPM US Technology C (acc) USD",
+        "SecId": "F000001ZFE",
+        "GBRReturnM12": 8.46
+    },
+    {
+        "Name": "JPM US Technology C (dist) USD",
+        "SecId": "F00000PASZ",
+        "GBRReturnM12": 8.44
+    },
+    {
+        "Name": "JPM US Technology D (acc) EUR",
+        "SecId": "F000005MPD",
+        "GBRReturnM12": 6.83
+    },
+    {
+        "Name": "JPM US Technology D (acc) USD",
+        "SecId": "F0GBR04MZ7",
+        "GBRReturnM12": 6.38
+    },
+    {
+        "Name": "JPM US Technology I2 (acc) USD",
+        "SecId": "F000010NZR",
+        "GBRReturnM12": 8.6
+    },
+    {
+        "Name": "JPM US Technology X (acc) USD",
+        "SecId": "F000000K97",
+        "GBRReturnM12": 9.21
+    },
+    {
+        "Name": "Jupiter Systematic Dsrpt Techy F EUR Acc",
+        "SecId": "F00001HQEO",
+        "GBRReturnM12": 5.73
+    },
+    {
+        "Name": "Jupiter Systematic Dsrpt Techy F GBP Acc",
+        "SecId": "F00001HQEM",
+        "GBRReturnM12": 5.71
+    },
+    {
+        "Name": "Jupiter Systematic Dsrpt Techy F USD Acc",
+        "SecId": "F00001HQEN",
+        "GBRReturnM12": 5.6
+    },
+    {
+        "Name": "Jupiter Systematic Dsrpt Techy I GBP Acc",
+        "SecId": "F00001HQEL",
+        "GBRReturnM12": NaN
+    },
+    {
+        "Name": "Jupiter Systematic Dsrpt Techy I USD Acc",
+        "SecId": "F00001HQEJ",
+        "GBRReturnM12": 5.02
+    },
+    {
+        "Name": "KBC Eq Fd Tech Resp Inv Classic Cap",
+        "SecId": "F0GBR04M0J",
+        "GBRReturnM12": 3.6
+    },
+    {
+        "Name": "KBC Eq Fd Tech Resp Inv Classic Dis",
+        "SecId": "F0GBR04LK3",
+        "GBRReturnM12": 2.9
+    },
+    {
+        "Name": "Liontrust GF Global Tech A10 EUR Acc",
+        "SecId": "F00001OPVC",
+        "GBRReturnM12": NaN
+    },
+    {
+        "Name": "Liontrust GF Global Tech A5 EUR Acc",
+        "SecId": "F00001OPVA",
+        "GBRReturnM12": NaN
+    },
+    {
+        "Name": "Liontrust GF Global Tech B5 USD Acc",
+        "SecId": "F00001OPVB",
+        "GBRReturnM12": NaN
+    },
+    {
+        "Name": "Liontrust GF Global Tech C5 GBP Acc",
+        "SecId": "F00001OXDI",
+        "GBRReturnM12": NaN
+    },
+    {
+        "Name": "Man Global Tech Equity Alt DN H EUR Acc",
+        "SecId": "F00001KFCK",
+        "GBRReturnM12": 1.24
+    },
+    {
+        "Name": "Man Global Tech Equity Alt IN USD Acc",
+        "SecId": "F00001KFCN",
+        "GBRReturnM12": -1.16
+    },
+    {
+        "Name": "Man Global Tech Equity Alt INF H EUR Acc",
+        "SecId": "F00001KFCL",
+        "GBRReturnM12": 1.95
+    },
+    {
+        "Name": "Man Global Tech Equity Alt INF USD Acc",
+        "SecId": "F00001KFCM",
+        "GBRReturnM12": -0.64
+    },
+    {
+        "Name": "NSF SICAV Convergence Tech A EUR Acc",
+        "SecId": "F0000164UL",
+        "GBRReturnM12": -10.84
+    },
+    {
+        "Name": "NSF SICAV Convergence Tech I EUR Acc",
+        "SecId": "F0000164UJ",
+        "GBRReturnM12": -10.41
+    },
+    {
+        "Name": "NSF SICAV Convergence Tech I USD Acc",
+        "SecId": "F000015UG6",
+        "GBRReturnM12": -10.44
+    },
+    {
+        "Name": "Polar Capital Global Tech I Acc",
+        "SecId": "F000015JBX",
+        "GBRReturnM12": 8.4
+    },
+    {
+        "Name": "Polar Capital Global Tech I EUR Hdg Inc",
+        "SecId": "F00000Z2WR",
+        "GBRReturnM12": 11.48
+    },
+    {
+        "Name": "Polar Capital Global Tech I Inc",
+        "SecId": "F000005H0E",
+        "GBRReturnM12": 8.42
+    },
+    {
+        "Name": "Polar Capital Global Tech I Inc EUR",
+        "SecId": "0P0000OMTB",
+        "GBRReturnM12": 8.41
+    },
+    {
+        "Name": "Polar Capital Global Tech I Inc GBP",
+        "SecId": "0P0000OMTA",
+        "GBRReturnM12": 8.42
+    },
+    {
+        "Name": "Polar Capital Global Tech Inc",
+        "SecId": "F0GBR04GUY",
+        "GBRReturnM12": 7.88
+    },
+    {
+        "Name": "Polar Capital Global Tech Inc EUR",
+        "SecId": "0P0000TWPC",
+        "GBRReturnM12": 7.88
+    },
+    {
+        "Name": "Polar Capital Global Tech Inc GBP",
+        "SecId": "0P00000S6D",
+        "GBRReturnM12": 7.87
+    },
+    {
+        "Name": "Polar Capital Global Tech R Acc",
+        "SecId": "F000016K6P",
+        "GBRReturnM12": 7.87
+    },
+    {
+        "Name": "Polar Capital Global Tech R CHF Hdg Inc",
+        "SecId": "F00000Y0OC",
+        "GBRReturnM12": 15.34
+    },
+    {
+        "Name": "Polar Capital Global Tech R EUR Hdg Acc",
+        "SecId": "F00000Z2WS",
+        "GBRReturnM12": 10.94
+    },
+    {
+        "Name": "Polar Capital Global Tech R EUR Hdg Inc",
+        "SecId": "F00000VUPO",
+        "GBRReturnM12": 10.92
+    },
+    {
+        "Name": "Polar Capital Global Tech R Inc",
+        "SecId": "F000005H09",
+        "GBRReturnM12": 7.88
+    },
+    {
+        "Name": "Polar Capital Global Tech R Inc EUR",
+        "SecId": "0P0000OMTD",
+        "GBRReturnM12": 7.89
+    },
+    {
+        "Name": "Polar Capital Global Tech R Inc GBP",
+        "SecId": "0P0000OMTC",
+        "GBRReturnM12": 7.88
+    },
+    {
+        "Name": "BlackRock Future Technology A acc EUR",
+        "SecId": "F00001D8QA",
+        "GBRReturnM12": -1.65
+    },
+    {
+        "Name": "BlackRock Future Technology A acc USD",
+        "SecId": "F00001D8QB",
+        "GBRReturnM12": -1.59
+    },
+    {
+        "Name": "BlackRock Future Technology Ah acc CHF",
+        "SecId": "F00001D8QD",
+        "GBRReturnM12": 5.18
+    },
+    {
+        "Name": "BlackRock Future Technology Ah acc EUR",
+        "SecId": "F00001D8QE",
+        "GBRReturnM12": 1.18
+    },
+    {
+        "Name": "BlackRock Future Technology Ah acc GBP",
+        "SecId": "F00001D8QF",
+        "GBRReturnM12": 3.83
+    },
+    {
+        "Name": "BlackRock Future Technology I acc EUR",
+        "SecId": "F00001D8QH",
+        "GBRReturnM12": -0.54
+    },
+    {
+        "Name": "BlackRock Future Technology I acc USD",
+        "SecId": "F00001D8QI",
+        "GBRReturnM12": -0.57
+    },
+    {
+        "Name": "BlackRock Future Technology Ih acc EUR",
+        "SecId": "F00001D8QJ",
+        "GBRReturnM12": 2.21
+    },
+    {
+        "Name": "BlackRock Future Technology K acc USD",
+        "SecId": "F00001D8QK",
+        "GBRReturnM12": -0.68
+    },
+    {
+        "Name": "BlackRock Future Technology Kh acc CHF",
+        "SecId": "F00001D8QL",
+        "GBRReturnM12": 6.14
+    },
+    {
+        "Name": "BlackRock Future Technology Kh acc EUR",
+        "SecId": "F00001D8QM",
+        "GBRReturnM12": 2.1
+    },
+    {
+        "Name": "BlackRock Future Technology N acc EUR",
+        "SecId": "F00001D8QN",
+        "GBRReturnM12": -0.78
+    },
+    {
+        "Name": "BlackRock Future Technology N acc USD",
+        "SecId": "F00001D8QO",
+        "GBRReturnM12": -0.78
+    },
+    {
+        "Name": "BlackRock Future Technology Nh acc GBP",
+        "SecId": "F00001D8QR",
+        "GBRReturnM12": 4.67
+    },
+    {
+        "Name": "BlackRock Future Technology SA acc CHF",
+        "SecId": "F00001DAS1",
+        "GBRReturnM12": -1.53
+    },
+    {
+        "Name": "BlackRock Future Technology SA acc EUR",
+        "SecId": "F00001DAS2",
+        "GBRReturnM12": -1.54
+    },
+    {
+        "Name": "BlackRock Future Technology SA acc USD",
+        "SecId": "F00001D8QS",
+        "GBRReturnM12": -1.54
+    },
+    {
+        "Name": "BlackRock Future Technology SAh acc CHF",
+        "SecId": "F00001DARZ",
+        "GBRReturnM12": 5.23
+    },
+    {
+        "Name": "BlackRock Future Technology SAh acc EUR",
+        "SecId": "F00001DAS6",
+        "GBRReturnM12": 1.23
+    },
+    {
+        "Name": "BlackRock Future Technology SK acc CHF",
+        "SecId": "F00001DAS5",
+        "GBRReturnM12": -0.63
+    },
+    {
+        "Name": "BlackRock Future Technology SK acc EUR",
+        "SecId": "F00001DAS0",
+        "GBRReturnM12": -0.64
+    },
+    {
+        "Name": "BlackRock Future Technology SK acc USD",
+        "SecId": "F00001DAS4",
+        "GBRReturnM12": -0.63
+    },
+    {
+        "Name": "BlackRock Future Technology SKh acc CHF",
+        "SecId": "F00001DAS3",
+        "GBRReturnM12": 6.19
+    },
+    {
+        "Name": "BlackRock Future Technology SKh acc EUR",
+        "SecId": "F00001DAS7",
+        "GBRReturnM12": 2.2
+    },
+    {
+        "Name": "PrivilEdge Fidelity Tech SysH CHF IA",
+        "SecId": "F00001DQXD",
+        "GBRReturnM12": 13.89
+    },
+    {
+        "Name": "PrivilEdge Fidelity Tech SysH EUR MA",
+        "SecId": "F00000XHD8",
+        "GBRReturnM12": 9.27
+    },
+    {
+        "Name": "PrivilEdge Fidelity Tech SysH EUR MD",
+        "SecId": "F00000ZGBE",
+        "GBRReturnM12": 9.27
+    },
+    {
+        "Name": "PrivilEdge Fidelity Tech SysH EUR NA",
+        "SecId": "F00000XHD5",
+        "GBRReturnM12": 9.38
+    },
+    {
+        "Name": "PrivilEdge Fidelity Tech SysH EUR PA",
+        "SecId": "F00000XHD6",
+        "GBRReturnM12": 8.4
+    },
+    {
+        "Name": "PrivilEdge Fidelity Tech SysH EUR RA",
+        "SecId": "F00000XHD7",
+        "GBRReturnM12": 25.13
+    },
+    {
+        "Name": "PrivilEdge Fidelity Tech SysH GBP ND",
+        "SecId": "F00000XHD4",
+        "GBRReturnM12": 12.14
+    },
+    {
+        "Name": "PrivilEdge Fidelity Tech USD IA",
+        "SecId": "F000014IW2",
+        "GBRReturnM12": 6.79
+    },
+    {
+        "Name": "PrivilEdge Fidelity Tech USD MA",
+        "SecId": "F00000XHDD",
+        "GBRReturnM12": 6.52
+    },
+    {
+        "Name": "PrivilEdge Fidelity Tech USD MD",
+        "SecId": "F00000XHDA",
+        "GBRReturnM12": 6.52
+    },
+    {
+        "Name": "PrivilEdge Fidelity Tech USD MX1D",
+        "SecId": "F00001DRR7",
+        "GBRReturnM12": 6.68
+    },
+    {
+        "Name": "PrivilEdge Fidelity Tech USD NA",
+        "SecId": "F00000XHD9",
+        "GBRReturnM12": 6.63
+    },
+    {
+        "Name": "PrivilEdge Fidelity Tech USD ND",
+        "SecId": "F0000106GI",
+        "GBRReturnM12": 6.63
+    },
+    {
+        "Name": "PrivilEdge Fidelity Tech USD PA",
+        "SecId": "F00000XG8K",
+        "GBRReturnM12": 5.67
+    },
+    {
+        "Name": "PrivilEdge Fidelity Tech USD PD",
+        "SecId": "F00000XHDC",
+        "GBRReturnM12": 5.67
+    },
+    {
+        "Name": "PrivilEdge Fidelity Tech USD RA",
+        "SecId": "F00000XHDB",
+        "GBRReturnM12": 4.73
+    },
+    {
+        "Name": "T. Rowe Price Glb Tech Eq A SGD",
+        "SecId": "F00001JO4C",
+        "GBRReturnM12": 5.63
+    },
+    {
+        "Name": "T. Rowe Price Glb Tech Eq A USD",
+        "SecId": "F00000VZ3W",
+        "GBRReturnM12": 5.73
+    },
+    {
+        "Name": "T. Rowe Price Glb Tech Eq Ah CHF",
+        "SecId": "F00000YXYY",
+        "GBRReturnM12": 12.54
+    },
+    {
+        "Name": "T. Rowe Price Glb Tech Eq Ah EUR",
+        "SecId": "F00000YXYZ",
+        "GBRReturnM12": 8.11
+    },
+    {
+        "Name": "T. Rowe Price Glb Tech Eq I EUR",
+        "SecId": "F00000X24N",
+        "GBRReturnM12": 6.76
+    },
+    {
+        "Name": "T. Rowe Price Glb Tech Eq I USD",
+        "SecId": "F00000VZ3X",
+        "GBRReturnM12": 6.76
+    },
+    {
+        "Name": "T. Rowe Price Global Tech Eq Q EUR 1",
+        "SecId": "F000010015",
+        "GBRReturnM12": 6.9
+    },
+    {
+        "Name": "T. Rowe Price Glb Tech Eq Q USD",
+        "SecId": "F00000VZ3V",
+        "GBRReturnM12": 6.72
+    },
+    {
+        "Name": "T. Rowe Price Global Technology Eq Q1",
+        "SecId": "F000010013",
+        "GBRReturnM12": 6.93
+    },
+    {
+        "Name": "T. Rowe Price Global Technology Eq Qd 1",
+        "SecId": "F000010012",
+        "GBRReturnM12": 6.9
+    },
+    {
+        "Name": "T. Rowe Price Glb Tech Eq Qd GBP",
+        "SecId": "F00000XKHE",
+        "GBRReturnM12": 6.51
+    },
+    {
+        "Name": "T. Rowe Price Global Tech Eq Qd GBP 1",
+        "SecId": "F000010014",
+        "GBRReturnM12": 6.78
+    },
+    {
+        "Name": "T. Rowe Price Glb Tech Eq Qd USD",
+        "SecId": "F00000YYCL",
+        "GBRReturnM12": 6.68
+    },
+    {
+        "Name": "T. Rowe Price Glb Tech Eq Qds GBP 0",
+        "SecId": "F000016TPF",
+        "GBRReturnM12": 6.91
+    },
+    {
+        "Name": "T. Rowe Price Global Technology Eq Qds0",
+        "SecId": "F000017H24",
+        "GBRReturnM12": 6.92
+    },
+    {
+        "Name": "T. Rowe Price Glb Tech Eq Qh EUR",
+        "SecId": "F00000XKHF",
+        "GBRReturnM12": 9.15
+    },
+    {
+        "Name": "T. Rowe Price Glb Tech Eq Qh EUR 0",
+        "SecId": "F000016TPG",
+        "GBRReturnM12": 9.41
+    },
+    {
+        "Name": "T. Rowe Price Glb Tech Eq Qh EUR 1",
+        "SecId": "F000010918",
+        "GBRReturnM12": 9.35
+    },
+    {
+        "Name": "T. Rowe Price Glb Tech Eq S USD",
+        "SecId": "F00000YO0P",
+        "GBRReturnM12": 7.64
+    },
+    {
+        "Name": "Tocqueville Technology ISR GP",
+        "SecId": "F00000225Z",
+        "GBRReturnM12": 5.04
+    },
+    {
+        "Name": "Tocqueville Technology ISR R",
+        "SecId": "F0GBR04FD9",
+        "GBRReturnM12": 4.28
+    },
+    {
+        "Name": "Wellington Asia Technology USD D Ac",
+        "SecId": "F00001050C",
+        "GBRReturnM12": 4.65
+    },
+    {
+        "Name": "Wellington Asia Technology USD N Ac",
+        "SecId": "F00001050D",
+        "GBRReturnM12": 5.59
+    },
+    {
+        "Name": "Wellington Asia Technology USD S Ac",
+        "SecId": "F00001050B",
+        "GBRReturnM12": 5.79
+    }
+]

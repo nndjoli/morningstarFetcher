@@ -1,0 +1,86 @@
+{
+    "Austria": {
+        "URL": "http://www.morningstar.at",
+        "Country Code": "at",
+        "languageId": "de-AT",
+        "currencyId": "EUR",
+        "universeIds": "FOAUT$$ALL"
+    },
+    "Belgium": {
+        "URL": "http://www.morningstar.be",
+        "Country Code": "be",
+        "languageId": "nl-BE",
+        "currencyId": "EUR",
+        "universeIds": "FOBEL$$ALL"
+    },
+    "Canada": {
+        "URL": "http://www.morningstar.ca",
+        "Country Code": "ca",
+        "languageId": "en-CA",
+        "currencyId": "BAS",
+        "universeIds": "FOCAN$$ALL|FOCAN$$FFV"
+    },
+    "Denmark": {
+        "URL": "http://www.morningstar.dk",
+        "Country Code": "dk",
+        "languageId": "da-DK",
+        "currencyId": "DKK",
+        "universeIds": "FODNK$$ALL"
+    },
+    "Finland": {
+        "URL": "http://www.morningstar.fi",
+        "Country Code": "fi",
+        "languageId": "fi-FI",
+        "currencyId": "EUR",
+        "universeIds": "FOFIN$$ALL"
+    },
+    "France": {
+        "URL": "http://www.morningstar.fr",
+        "Country Code": "fr",
+        "languageId": "fr-FR",
+        "currencyId": "EUR",
+        "universeIds": "FOFRA$$ALL"
+    },
+    "Ireland": {
+        "URL": "http://www.morningstarfunds.ie",
+        "Country Code": "ie",
+        "languageId": "en-IE",
+        "currencyId": "EUR",
+        "universeIds": "FOIRL$$ALL"
+    },
+    "Italy": {
+        "URL": "http://www.morningstar.it",
+        "Country Code": "it",
+        "languageId": "it-IT",
+        "currencyId": "EUR",
+        "universeIds": "FOITA$$ALL"
+    },
+    "Netherlands": {
+        "URL": "http://www.morningstar.nl",
+        "Country Code": "nl",
+        "languageId": "nl-NL",
+        "currencyId": "EUR",
+        "universeIds": "FONLD$$ALL"
+    },
+    "Switzerland": {
+        "URL": "http://www.morningstar.ch",
+        "Country Code": "ch",
+        "languageId": "de-CH",
+        "currencyId": "CHF",
+        "universeIds": "FOCHE$$ALL"
+    },
+    "Taiwan": {
+        "URL": "http://www.tw.morningstar.com",
+        "Country Code": "tw",
+        "languageId": "en-TW",
+        "currencyId": "TWD",
+        "universeIds": "FOTWN$$ALL"
+    },
+    "UK": {
+        "URL": "http://www.morningstar.co.uk",
+        "Country Code": "uk",
+        "languageId": "en-GB",
+        "currencyId": "GBP",
+        "universeIds": "FOGBR$$ALL|FOCHI$$ONS"
+    }
+}
