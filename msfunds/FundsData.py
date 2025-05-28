@@ -17,7 +17,9 @@ def reqheaders():
     }
 
     token_response = httpx.get("https://www.morningstar.com/funds/xnas/broix/chart", follow_redirects=True, timeout=120.0, headers=headers)
-
+    # Could also be: token_response = httpx.get('https://www.morningstar.com/api/v2/stores/maas/token', follow_redirects=True, timeout=120.0, headers=headers)
+    # Would return the string token directly. Would still be problematic if too many requests were made under a certain amount of time.
+    
     if token_response.status_code != 200:
         raise Exception("Too many requests: Failed to retrieve token from Morningstar. Please try again later.")
 
@@ -115,6 +117,7 @@ async def queries(FundID: str):
             # Trailing Return Data:
             "GlobalAPI_TRAILINGRETURN_V2": query(client, f"https://api-global.morningstar.com/sal-service/v1/fund/trailingReturn/v2/{FundID}/data"),
             "GlobalAPI_TRAILINGRETURN_V3": query(client, f"https://api-global.morningstar.com/sal-service/v1/fund/trailingReturn/v3/{FundID}/data"),
+            
             # USAPI Endpoints:
             # "USAPI_ESG_v1": query(client, f"https://www.us-api.morningstar.com/sal/sal-service/fund/esg/v1/{FundID}/data"),
             # "USAPI_FACTORPROFILE": query(client, f"https://www.us-api.morningstar.com/sal/sal-service/fund/factorProfile/{FundID}/data"),
