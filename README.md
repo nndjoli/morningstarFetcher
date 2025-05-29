@@ -21,6 +21,8 @@ sc = msfunds.ScreenerFunction()
 The screener function is accessible via: 
 
 ```python
+
+# Call the screener function
 df = sc.screener() 
 ```
 Its parameters are:
