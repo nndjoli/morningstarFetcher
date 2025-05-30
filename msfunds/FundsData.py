@@ -17,7 +17,7 @@ def reqheaders():
     }
 
     token_response = httpx.get("https://www.morningstar.com/funds/xnas/broix/chart", follow_redirects=True, timeout=120.0, headers=headers)
-    # Could also be: token_response = httpx.get('https://www.morningstar.com/api/v2/stores/maas/token', follow_redirects=True, timeout=120.0, headers=headers)
+    # Could also be: token_response = httpx.get('https://www.morningstar.com/api/v2/stores/maas/token', headers=headers)
     # Would return the string token directly. Would still be problematic if too many requests were made under a certain amount of time.
     
     if token_response.status_code != 200:
