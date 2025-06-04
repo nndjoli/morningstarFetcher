@@ -4,7 +4,6 @@ import os
 from pathlib import Path
 
 try:
-    # Méthode 1: Utiliser importlib.resources (Python 3.9+)
     from importlib.resources import files, as_file
     
     package_path = files("msfunds.Utils")
@@ -26,7 +25,6 @@ try:
             URLS = json.load(f)
     
 except (ImportError, ModuleNotFoundError):
-    # Méthode 2: Chemin relatif
     current_dir = Path(os.path.dirname(os.path.abspath(__file__)))
     
     with open(current_dir / "Fields.json", "r", encoding="utf-8") as f:
