@@ -2,7 +2,7 @@ import msfunds
 import json
 
 
-# Screener test:
+# ScreenerFunction test:
 screener_test = msfunds.ScreenerFunction().screener("France", "Technology", Fields=["GBRReturnM12"])
 screener_test_json = screener_test.to_dict(orient="records")
 
