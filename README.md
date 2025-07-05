@@ -16,7 +16,7 @@
 import msfunds
 
 # Initialize the screener function class
-sc = msfunds.ScreenerFunction()
+sc = msfunds.ScreenerClass()
 ```
 The screener function is accessible via: 
 
