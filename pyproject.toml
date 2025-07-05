@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "imfFetcher"
+version = "1.0.0"
+description = "Interacts with the International Monetary Fund API (SDMX 3.0) to retrieve macroeconomic data."
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+authors = [ {name = "nndjoli"} ]
+
+dependencies = [
+    "httpx",
+    "pandas",
+    "nest_asyncio"
+]
+
+[project.urls]
+Homepage = "https://github.com/nndjoli/imfFetcher"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["imfFetcher"]

@@ -1,7 +1,7 @@
 import httpx
 import pandas as pd
 
-from .Utils.Constants import FIELDS, KEYS, SITES
+from .utils.Constants import FIELDS, KEYS, SITES
 
 
 def reqparams(
@@ -29,34 +29,50 @@ def reqparams(
     filters = []
 
     if BrandingCompanyId is not None:
-        filters.append(f"BrandingCompanyId:EQ:{KEYS['BrandingCompanyId'][BrandingCompanyId]}")
+        filters.append(
+            f"BrandingCompanyId:EQ:{KEYS['BrandingCompanyId'][BrandingCompanyId]}"
+        )
 
     if AdministratorCompanyId is not None:
-        filters.append(f"AdministratorCompanyId:EQ:{KEYS['AdministratorCompanyId'][AdministratorCompanyId]}")
+        filters.append(
+            f"AdministratorCompanyId:EQ:{KEYS['AdministratorCompanyId'][AdministratorCompanyId]}"
+        )
 
     if CategoryId is not None:
         filters.append(f"CategoryId:EQ:{KEYS['CategoryId'][CategoryId]}")
 
     if GlobalCategoryId is not None:
-        filters.append(f"GlobalCategoryId:EQ:{KEYS['GlobalCategoryId'][GlobalCategoryId]}")
+        filters.append(
+            f"GlobalCategoryId:EQ:{KEYS['GlobalCategoryId'][GlobalCategoryId]}"
+        )
 
     if GlobalAssetClassId is not None:
-        filters.append(f"GlobalAssetClassId:EQ:{KEYS['GlobalAssetClassId'][GlobalAssetClassId]}")
+        filters.append(
+            f"GlobalAssetClassId:EQ:{KEYS['GlobalAssetClassId'][GlobalAssetClassId]}"
+        )
 
     if IMASectorID is not None:
         filters.append(f"IMASectorID:IN:{KEYS['IMASectorID'][IMASectorID]}")
 
     if LargestRegion is not None:
-        filters.append(f"LargestRegion:IN:{KEYS['LargestRegion'][LargestRegion]}")
+        filters.append(
+            f"LargestRegion:IN:{KEYS['LargestRegion'][LargestRegion]}"
+        )
 
     if LargestSector is not None:
-        filters.append(f"LargestSector:IN:{KEYS['LargestSector'][LargestSector]}")
+        filters.append(
+            f"LargestSector:IN:{KEYS['LargestSector'][LargestSector]}"
+        )
 
     if ShareClassTypeId is not None:
-        filters.append(f"ShareClassTypeId:EQ:{KEYS['ShareClassTypeId'][ShareClassTypeId]}")
+        filters.append(
+            f"ShareClassTypeId:EQ:{KEYS['ShareClassTypeId'][ShareClassTypeId]}"
+        )
 
     if ManagementStyle is not None:
-        filters.append(f"ManagementStyle:EQ:{KEYS['ManagementStyle'][ManagementStyle]}")
+        filters.append(
+            f"ManagementStyle:EQ:{KEYS['ManagementStyle'][ManagementStyle]}"
+        )
 
     if distribution is not None:
         filters.append(f"distribution:IN:{KEYS['distribution'][distribution]}")
@@ -66,19 +82,29 @@ def reqparams(
         filters.append(f"FeeLevel:{operator}:{KEYS['FeeLevel'][FeeLevel]}")
 
     if OngoingCharge is not None:
-        filters.append(f"OngoingCharge:EQ:{KEYS['OngoingCharge'][OngoingCharge]}")
+        filters.append(
+            f"OngoingCharge:EQ:{KEYS['OngoingCharge'][OngoingCharge]}"
+        )
 
     if CollectedSRRI is not None:
-        filters.append(f"CollectedSRRI:IN:{KEYS['CollectedSRRI'][CollectedSRRI]}")
+        filters.append(
+            f"CollectedSRRI:IN:{KEYS['CollectedSRRI'][CollectedSRRI]}"
+        )
 
     if StarRatingM255 is not None:
-        filters.append(f"StarRatingM255:IN:{KEYS['StarRatingM255'][StarRatingM255]}")
+        filters.append(
+            f"StarRatingM255:IN:{KEYS['StarRatingM255'][StarRatingM255]}"
+        )
 
     if Medalist_RatingNumber is not None:
-        filters.append(f"Medalist_RatingNumber:IN:{KEYS['Medalist_RatingNumber'][Medalist_RatingNumber]}")
+        filters.append(
+            f"Medalist_RatingNumber:IN:{KEYS['Medalist_RatingNumber'][Medalist_RatingNumber]}"
+        )
 
     if SustainabilityRank is not None:
-        filters.append(f"SustainabilityRank:IN:{KEYS['SustainabilityRank'][SustainabilityRank]}")
+        filters.append(
+            f"SustainabilityRank:IN:{KEYS['SustainabilityRank'][SustainabilityRank]}"
+        )
 
     if InvestorType is not None:
         filters.append(f"InvestorType:EQ:{KEYS['InvestorType'][InvestorType]}")
@@ -87,7 +113,9 @@ def reqparams(
         filters.append(f"Expertise:EQ:{KEYS['Expertise'][Expertise]}")
 
     if ReturnProfile is not None:
-        filters.append(f"ReturnProfile:EQ:{KEYS['ReturnProfile'][ReturnProfile]}")
+        filters.append(
+            f"ReturnProfile:EQ:{KEYS['ReturnProfile'][ReturnProfile]}"
+        )
 
     query = "|".join(filters)
     return query
@@ -121,13 +149,14 @@ def screenerfunc(
     sortOrder="LegalName asc",
     PageSize=10000,
 ):
-
     if CountryName is None:
         print("No country provided, defaulting to 'France'. ")
         CountryName = "France"
 
     if CountryName not in sorted(SITES.index):
-        raise Exception(f"{CountryName} not found in the list of supported countries. The list of supported countries is: {sorted(SITES.index)}")
+        raise Exception(
+            f"{CountryName} not found in the list of supported countries. The list of supported countries is: {sorted(SITES.index)}"
+        )
 
     if CountryName == "Taiwan":
         code = "lwbti4ryk4"
@@ -144,14 +173,18 @@ def screenerfunc(
     elif isinstance(Fields, list):
         for field in Fields:
             if field not in FIELDS:
-                raise Exception(f"{field} is not a valid field. The list of valid fields is: {FIELDS}")
+                raise Exception(
+                    f"{field} is not a valid field. The list of valid fields is: {FIELDS}"
+                )
         if "SecId" not in Fields and "Name" not in Fields:
             fields = "Name|SecId|"
             fields += "|".join(Fields)
         else:
             fields = "|".join(Fields)
     else:
-        raise Exception(f"Fields must be a list of strings. The list of valid fields is: {FIELDS}")
+        raise Exception(
+            f"Fields must be a list of strings. The list of valid fields is: {FIELDS}"
+        )
 
     country_base_url = SITES.loc[CountryName]["URL"]
     languageId = SITES.loc[CountryName]["languageId"]
@@ -217,7 +250,7 @@ def screenerfunc(
         return response.text
 
 
-class ScreenerFunction:
+class ScreenerClass:
     """
     Interface for Morningstar security screener API.
 
