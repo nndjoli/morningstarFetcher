@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "morningstarFetcher"
+version = "2.0.0"
+authors = [{name="nndjoli"}]
+description = "Morningstar scraping utilities"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx",
+    "pandas",
+    "ua_generator",
+    "nest_asyncio",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["morningstarFetcher*"]
