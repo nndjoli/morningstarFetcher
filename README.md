@@ -133,7 +133,7 @@ We then proceed to fetch the mutual funds using these filters and extract their 
 ```python
 french_mkt_funds_df = screener.get("mutual_funds", "fr", sort_by="totalReturn[5y]:desc", pages=1, filters=filters) # Fetch top mutual funds in France based on previous filters
 french_mkt_funds_ids = french_mkt_funds_df["securityID"].tolist() # Extract security IDs of the funds
-french_mkt_funds = [mf.Fund(sec_id) for sec_id in french_mkt_funds_ids] # Create Fund objects for each security ID
+french_mkt_funds = [mf.Fund(sec_id, lazy=True) for sec_id in french_mkt_funds_ids] # Create Fund objects for each security ID
 ```
 The `french_mkt_funds_df` DataFrame has more than 230 columns, including detailed performance metrics, risk assessments, and other valuable information about each fund. You can explore the `Screener` class documentation or its `{investment_type}_fields` attribute to see all available fields.
 
