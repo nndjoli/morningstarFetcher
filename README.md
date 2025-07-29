@@ -31,6 +31,7 @@
 
 <p align="justify"><h3 id="installation">Installation</h3></p>
 
+Pypi: <a href="https://pypi.org/project/morningstarFetcher/">https://pypi.org/project/morningstarFetcher/</a>
 ```bash
 pip install morningstarFetcher
 ```
