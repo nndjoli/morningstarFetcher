@@ -5,6 +5,8 @@ This library is intended for personal and educational use only. It is not affili
 
 Use the [Screener](screener.md) to locate fund identifiers. For other asset types see [ETF](etf.md) and [Stock](stock.md).
 
+The ``Fund`` constructor accepts a ``lazy`` option. When set, data is retrieved only when attributes are first accessed.
+
 
 ```python
 import morningstarFetcher
@@ -17,6 +19,12 @@ pprint(summary)
 
 people = fund.people  # Key personnel;
 pprint(people)
+```
+
+```python
+# Lazy example
+lazy_fund = morningstarFetcher.Fund("0P00000JRR", lazy=True)
+print(lazy_fund.price_overview)
 ```
 
 | Attribute | Description |

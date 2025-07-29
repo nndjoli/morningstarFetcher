@@ -1,9 +1,9 @@
 from dataclasses import dataclass
 
 from .queries import etf_queries, fund_queries, stock_queries
+from .utils.async_helpers import run_async
 from .utils.requests import QueryManager as query_manager
 from .utils.requests import async_gather, request_headers
-from .utils.async_helpers import run_async
 
 
 def get_metadata(query_manager, security_id):
@@ -33,8 +33,35 @@ async def queries(tasks, headers=None):
     return await async_gather(tasks, headers=headers)
 
 
+class LazyFetchClass:
+    """Class providing lazy-loading behavior for security data."""
+
+    _lazy: bool = False
+    __tasks__: dict
+    __req_h__: dict
+
+    def __getattribute__(self, name):
+        # Always allow access to internal attributes without interception
+        if name.startswith("_") or name in {"__tasks__", "_lazy", "_fetch_attribute"}:
+            return object.__getattribute__(self, name)
+
+        lazy = object.__getattribute__(self, "_lazy") if "_lazy" in self.__dict__ else False
+        if lazy:
+            tasks = object.__getattribute__(self, "__tasks__")
+            if name in tasks:
+                instance_dict = object.__getattribute__(self, "__dict__")
+                if name not in instance_dict or instance_dict.get(name) is None:
+                    self._fetch_attribute(name)
+        return object.__getattribute__(self, name)
+
+    def _fetch_attribute(self, name):
+        url = self.__tasks__[name]
+        result = run_async(queries({name: url}, headers=self.__req_h__))
+        setattr(self, name, result.get(name))
+
+
 @dataclass
-class ETF:
+class ETF(LazyFetchClass):
     disclosure_flag: dict = None
     """dict: Regulatory disclosure flags for the ETF."""
 
@@ -179,8 +206,12 @@ class ETF:
     market_id_information: dict = None
     """dict: Additional market identifier information."""
 
-    def __init__(self, security_id):
+    def __init__(self, security_id, lazy: bool = False):
         self.security_id = security_id
+        # Lazy loading can't be enabled until __tasks__ is populated. Set to
+        # False during initialization to avoid attribute errors from
+        # ``__getattribute__``.
+        self._lazy = False
         self.__qm__ = query_manager()
         self.__req_h__ = request_headers()
 
@@ -205,14 +236,21 @@ class ETF:
         ]
 
         self.__tasks__ = {item["name"]: item["url"] for item in self.queries_urls}
+        # ``_lazy`` is only set to the requested value once all required
+        # attributes are initialized and ``__tasks__`` is available.
+        self._lazy = lazy
 
-        result = run_async(queries(self.__tasks__, headers=self.__req_h__))
-        for k, v in result.items():
-            setattr(self, k, v)
+        if not self._lazy:
+            result = run_async(queries(self.__tasks__, headers=self.__req_h__))
+            for k, v in result.items():
+                setattr(self, k, v)
+        else:
+            for k in self.__tasks__:
+                setattr(self, k, None)
 
 
 @dataclass
-class Stock:
+class Stock(LazyFetchClass):
     company_profile: dict = None
     """dict: Basic company profile information."""
 
@@ -360,8 +398,12 @@ class Stock:
     market_id_information: dict = None
     """dict: Additional market identifier information."""
 
-    def __init__(self, security_id):
+    def __init__(self, security_id, lazy: bool = False):
         self.security_id = security_id
+        # Defer enabling lazy loading until all initialization is complete.
+        # This prevents ``__getattribute__`` from accessing ``__tasks__`` before
+        # it is defined during object construction.
+        self._lazy = False
         self.__qm__ = query_manager()
         self.__req_h__ = request_headers()
 
@@ -386,14 +428,20 @@ class Stock:
         ]
 
         self.__tasks__ = {item["name"]: item["url"] for item in self.queries_urls}
+        # Now that tasks are ready, store the requested lazy flag.
+        self._lazy = lazy
 
-        result = run_async(queries(self.__tasks__, headers=self.__req_h__))
-        for k, v in result.items():
-            setattr(self, k, v)
+        if not self._lazy:
+            result = run_async(queries(self.__tasks__, headers=self.__req_h__))
+            for k, v in result.items():
+                setattr(self, k, v)
+        else:
+            for k in self.__tasks__:
+                setattr(self, k, None)
 
 
 @dataclass
-class Fund:
+class Fund(LazyFetchClass):
     disclosure_flag: dict = None
     """dict: Regulatory disclosure flags for the fund."""
 
@@ -589,8 +637,12 @@ class Fund:
     market_id_information: dict = None
     """dict: Additional market identifier information."""
 
-    def __init__(self, security_id):
+    def __init__(self, security_id, lazy: bool = False):
         self.security_id = security_id
+        # Defer enabling lazy loading until tasks are available. Otherwise
+        # ``__getattribute__`` may fail when it tries to access ``__tasks__``
+        # during initialization.
+        self._lazy = False
         self.__qm__ = query_manager()
         self.__req_h__ = request_headers()
 
@@ -615,10 +667,16 @@ class Fund:
         ]
 
         self.__tasks__ = {item["name"]: item["url"] for item in self.queries_urls}
+        # Now that tasks are initialized, apply the requested lazy flag
+        self._lazy = lazy
 
-        result = run_async(queries(self.__tasks__, headers=self.__req_h__))
-        for k, v in result.items():
-            setattr(self, k, v)
+        if not self._lazy:
+            result = run_async(queries(self.__tasks__, headers=self.__req_h__))
+            for k, v in result.items():
+                setattr(self, k, v)
+        else:
+            for k in self.__tasks__:
+                setattr(self, k, None)
 
 
 __all__ = ["ETF", "Stock", "Fund"]

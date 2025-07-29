@@ -5,6 +5,8 @@ This library is intended for personal and educational use only. It is not affili
 
 Security IDs for stocks can be obtained using the [Screener](screener.md). See also [ETF](etf.md) and [Fund](fund.md) for other asset types.
 
+The ``Stock`` constructor accepts a ``lazy`` option. When set, data is retrieved only when attributes are first accessed.
+
 ```python
 import morningstarFetcher
 from pprint import pprint
@@ -19,6 +21,12 @@ insiders = stock.insiders_transaction_history  # Insider transactions history;
 print("\nInsiders Transaction History:")
 pprint(insiders)  # Display insider transactions history;
 
+```
+
+```python
+# Lazy loading
+lazy_stock = morningstarFetcher.Stock("0P0001O7D0", lazy=True)
+print(lazy_stock.realtime_quote)
 ```
 
 | Attribute | Description |

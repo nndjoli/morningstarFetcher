@@ -5,6 +5,8 @@ This library is intended for personal and educational use only. It is not affili
 
 Security IDs for ETFs can be retrieved via the [Screener](screener.md). Related documentation: [Stock](stock.md) and [Fund](fund.md).
 
+The constructor accepts a ``lazy`` argument. When ``lazy=True`` all network requests are deferred until a data attribute is accessed for the first time.
+
 ```python
 import morningstarFetcher
 from pprint import pprint
@@ -16,6 +18,12 @@ pprint(portfolio_holdings)
 
 financial_metrics = etf.process_financial_metrics  # Financial Metrics Information;
 pprint(financial_metrics)
+```
+
+```python
+# Lazy loading example
+lazy_etf = morningstarFetcher.ETF("0P00015WWF", lazy=True)
+print(lazy_etf.price)  # triggers a single network call
 ```
 
 | Attribute | Description |
