@@ -1,7 +1,3 @@
-"""Utility helpers for running asynchronous coroutines."""
-
-from __future__ import annotations
-
 import asyncio
 
 

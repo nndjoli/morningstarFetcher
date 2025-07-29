@@ -1,5 +1,3 @@
-"""HTTP helpers shared by the screener and security modules."""
-
 from __future__ import annotations
 
 import asyncio
@@ -23,13 +21,9 @@ def _base_headers() -> Dict[str, str]:
 @lru_cache(maxsize=1)
 def get_token() -> str:
     """Retrieve an access token from Morningstar."""
-    resp = httpx.get(
-        "https://www.morningstar.com/api/v2/stores/maas/token", headers=_base_headers()
-    )
+    resp = httpx.get("https://www.morningstar.com/api/v2/stores/maas/token", headers=_base_headers())
     if resp.status_code != 200:
-        raise RuntimeError(
-            f"Failed to retrieve token: {resp.status_code}"
-        )
+        raise RuntimeError(f"Failed to retrieve token: {resp.status_code}")
     text = resp.text.strip()
     if not text:
         raise RuntimeError("Empty token received from Morningstar")

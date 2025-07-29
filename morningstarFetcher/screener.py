@@ -1,10 +1,3 @@
-"""screener.py — MorningstarFetcherV3
-
-**Version 4 (variations-aware)**
-
-Adds full support for **field variations / parameters** (e.g. ``totalReturn[ytd]``).
-"""
-
 from __future__ import annotations
 
 import asyncio
@@ -13,17 +6,10 @@ from typing import Any, Dict, List, Sequence
 import httpx
 import pandas as pd
 
+from .utils.async_helpers import run_async
 from .utils.filtering import build_filter_string
 from .utils.requests import request_headers
-from .utils.screener_utils import (
-    get_market,
-    process_markets_response,
-    process_query_response,
-    screener_builders,
-    universe_fields,
-)
-from .utils.async_helpers import run_async
-
+from .utils.screener_utils import get_market, process_markets_response, process_query_response, screener_builders, universe_fields
 
 __all__ = ["Screener"]
 
