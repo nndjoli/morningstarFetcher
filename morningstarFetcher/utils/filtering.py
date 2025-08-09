@@ -1,3 +1,5 @@
+from collections.abc import Sequence
+
 OPERATORS_BY_TYPE = {
     "string": [
         "=",
@@ -100,7 +102,17 @@ def build_filter_string(filters, available_fields):
         field_type = available_fields[field]
         allowed = OPERATORS_BY_TYPE.get(field_type, OPERATORS_BY_TYPE["string"])
         op = operator
-        val = str(value)
+        val = value
+        if op in {"in", "not in"} and isinstance(val, Sequence) and not isinstance(val, str):
+            items = []
+            for item in val:
+                item_val = str(item)
+                if field_type in {"string", "date"} and not (item_val.startswith('"') or item_val.startswith("'")):
+                    item_val = f"'{item_val}'"
+                items.append(item_val)
+            val = f"({','.join(items)})"
+        else:
+            val = str(val)
         if field_type == "string" and any(ch in val for ch in "*?"):
             val = val.replace("*", "%").replace("?", "_")
             if op in {"="}:
@@ -109,7 +121,7 @@ def build_filter_string(filters, available_fields):
                 op = "not like"
         if op not in allowed:
             continue
-        if field_type in {"string", "date"} and not (val.startswith("\"") or val.startswith("'")):
+        if field_type in {"string", "date"} and not (val.startswith('"') or val.startswith("'") or (val.startswith("(") and val.endswith(")"))):
             val = f'"{val}"'
         filter_strings.append(f"{field} {op} {val}")
     return f"({' AND '.join(filter_strings)})" if filter_strings else ""
