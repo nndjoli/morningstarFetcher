@@ -1,4 +1,5 @@
 from .screener import Screener
+from .search import Search
 from .security import ETF, Fund, Stock
 
-__all__ = ["Screener", "ETF", "Stock", "Fund"]
+__all__ = ["Screener", "Search", "ETF", "Stock", "Fund"]

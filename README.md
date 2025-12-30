@@ -21,6 +21,7 @@
 <div align="justify"  >
 <ul>
   <li><b>Asynchronous Screener:</b> Query Morningstar’s screener to filter and list securities by market, investment type, etc.</li>
+  <li><b>Search helper:</b> Find securities by term with country-aware filters.</li>
   <li><b>Asset Classes:</b> Dedicated classes (<code>ETF</code>, <code>Stock</code>, <code>Fund</code>) that automatically fetch and expose data attributes.</li>
   <li><b>Pandas Integration:</b> Screener results are returned as <code>pandas.DataFrame</code> for seamless data analysis.</li>
 </ul>
@@ -77,6 +78,28 @@ print("First French ETF securityID:", default_id)
 ```
 <div align="justify">
 The returned DataFrame contains one row per security, each with a unique <code>securityID</code>. You can use this identifier with the <code>ETF</code>, <code>Stock</code>, or <code>Fund</code> classes to retrieve comprehensive details and attributes for that security.
+</div>
+<hr>
+
+<h3>Search Helper</h3>
+<div align="justify">
+Use <code>Search</code> to look up securities by term (name, ISIN, ticker) with country-aware filters aligned to Morningstar’s search endpoint. Results are returned as a <code>pandas.DataFrame</code> including <code>securityID</code> and the requested metadata fields.
+</div>
+
+```python
+import morningstarFetcher as ms
+
+# One-off call
+df = ms.Search("Sycomore")  # defaults: country="FRA", locale="fr"
+print(df[["securityID", "universe", "isin", "name"]].head())
+
+# Reusable client with custom locale or defaults
+client = ms.Search.client(locale="fr")
+df_fr = client("Sycomore", country="FRA", limit=100)
+df_us = client("Apple", country="USA", fields=["isin", "ticker", "name", "exchange"])
+```
+<div align="justify">
+Adjust <code>country</code>, <code>fields</code>, or <code>locale</code> to target other markets or languages.
 </div>
 <hr>
 
